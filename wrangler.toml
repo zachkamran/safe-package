@@ -1,0 +1,16 @@
+name = "safe-package-worker"
+main = "src/index.ts"
+compatibility_date = "2026-04-30"
+
+[[kv_namespaces]]
+binding = "CACHE_KV"
+id = "REPLACE_WITH_CACHE_KV_ID"
+
+[[kv_namespaces]]
+binding = "METADATA_KV"
+id = "REPLACE_WITH_METADATA_KV_ID"
+
+[[r2_buckets]]
+binding = "ARTIFACTS_R2"
+bucket_name = "replace-with-artifacts-bucket"
+preview_bucket_name = "replace-with-artifacts-bucket-preview"
